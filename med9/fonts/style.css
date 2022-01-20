@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Montserrat:wght@300&family=Parisienne&display=swap');
+h1{
+	font-family: "Arvo";
+}
+h2{
+	font-family: "Montserrat";
+	text-align: right;
+}
+p{
+	font-family: "Parisienne";
+	column-count: 3;
+	line-height: 1.5;
+	margin: 50px;
+	text-align: justify;
+	color: white;
+
+}
+.signiture{
+	font-family: "Arvo";
+	font-size: 50px;
+	
+}
+body{
+	background: linear-gradient(90deg, rgba(0,73,226,1) 0%, rgba(5,11,116,1) 49%, rgba(209,1,1,1) 100%);
+}
+html{
+	font-size: 20px;
+}
