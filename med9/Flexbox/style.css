@@ -1,0 +1,40 @@
+div{
+	height: 400px;
+	background-color: lightblue;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+
+
+
+}
+p{
+	font-size: 25px;
+	padding: 20px;
+	background-color: darkred;
+	margin: 10px;
+
+}
+.ich{
+	background-color: lightgreen;
+	
+	
+}
+.bin{
+	justify-content: center;
+	align-items: center;
+    background-color: lightgreen;
+    display: flex;
+    border: ;
+    margin: 30px;
+}
+img{
+	display: flex;
+	width: 200px;
+	height: 150px;
+    margin: 20px;
+}
+.pic{
+	justify-content: space-around;
+	align-items: flex-end;
+}
