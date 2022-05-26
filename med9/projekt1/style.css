@@ -1,0 +1,29 @@
+html{
+	background-color: darkblue;
+}
+h1{
+	background-color: skyblue;
+}
+h2{
+	background-color: skyblue;
+}
+h3{
+	background-color: skyblue;
+}
+ul{
+	background-color: skyblue;
+}
+p{
+	color: white;
+}
+img{
+	height: 200px;
+	width: 100px;
+	border: dotted darkred 7px;
+	float: right;
+	border-radius: 15px;
+    background-color: ;
+}
+a{
+	background-color: skyblue;
+}
