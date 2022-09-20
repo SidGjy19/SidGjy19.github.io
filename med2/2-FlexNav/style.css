@@ -1,0 +1,11 @@
+nav{
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	background: lightgray;
+}
+img{
+	height: 160px;
+	border-radius: 50%;
+}
