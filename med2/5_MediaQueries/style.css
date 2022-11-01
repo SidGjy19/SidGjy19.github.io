@@ -1,85 +1,60 @@
-*{
-	/*nav, article und aside sind mit dem Padding groser als 100%.
-	Die drei Bereiche passen daher nicht nebeneinander.
-	box-sizing: border-box ...... die Grosenangben umfassen das gesamte Element
-	(inkl)*/
+footer{
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(34,34,107,1) 38%, rgba(0,212,255,1) 100%);
+	color: white;
+	padding: 40px;
 	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-	word-wrap: break-word;
+	
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+
 }
-/*Handy Design*/
-header, nav, article, aside{
-	width: 100%;
+a{
+	color: white;
+	text-decoration: none;
+	
+
 }
-header{
-	background-color: grey;
-	padding: 25px;
-}
-nav{
-	background-color: red;
-	padding: 25px;
+a:hover{
+	background-color: white;
+	padding: 5px;
+	color: black;
 }
 
-article{
-	background-color: lightblue;
-	padding: 25px;
-}
-aside{
-	background-color: mediumvioletred;
-	padding: 25px;
-}
-
-/*Tablet Design*/
-@media (min-width: 600px){
-
-	li{
-		display: inline;
-
-	}
-	article{
-		width: 60%;
-		float: left;
-	}
-
-	aside{
-		width: 40%;
-		float: left;
-	}
-}
-
-
-/*Pc Design*/
-@media(min-width: 768px){
-li{
-	display: block;
-}
-header{
-	background-color: grey;
-	padding: 25px;
-}
-nav{
-	background-color: red;
+.box1{
 	width: 25%;
-	padding: 25px;
-	float: left;
-}
+	text-align: left;
 
-article{
-	background-color: lightblue;
+}
+.box2{
+	width: 25%;
+}
+.box3{
 	width: 50%;
-	padding: 25px;
-	float: left;
 }
-aside{
-	background-color: mediumvioletred;
-	width: 25%;
-	padding: 25px;
-	float: left;
+@media (max-width: 768px){
+footer {
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+
 }
-#container{
-	/*Kurze Zeilen sind besser zu lesen daher bereite ist 70%*/
-	width: 70%;
-	margin: auto;
+footer .box1{
+	width: 25%;;
+	text-align: center;
+
 }
+	footer .box2{
+	width: 25%;;
+	text-align: center;
+
+}
+footer .box3{
+	width: 50%;;
+	text-align: center;
+
+}
+
 }
